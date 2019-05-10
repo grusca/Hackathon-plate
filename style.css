@@ -67,20 +67,23 @@ header {
   justify-content: space-evenly; /*y axis because column */
   width: 100%;
   height: 800px;
-  background-image: url("assets/img/mints.png");            
-  background-repeat: no-repeat;
-  background-position: left;
+  padding: 0px;
+
   color: black;
 
 }
 header article:first-child {
   width: 33%;
   height: 150px;
-
+  background-image: url("assets/img/mints.png");            
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  margin: 0px;
+  height: auto;
 }
 header article:nth-child(2) {
   width: 33%;
-  height: 150px;
 }
 
 /* ---- first section ---- */
@@ -105,7 +108,50 @@ header article:nth-child(2) {
   }
 
 
+.card {
+  width: 33%;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  justify-content: space-between;
 
+}
+
+#tinbox {
+  width: 100%;
+  position: center;
+
+
+}
+
+
+/* ---- second section ---- */
+.formsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form-box {
+  background-color: bisque;
+  height: 50%;
+  width: 25%;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding-top: 15px;
+  padding-right: 15px;
+  height: auto;
+  color: none;
+  border: none;
+  border-bottom: 1.5px solid black;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  
+}
 
 /* ---- footer ---- */
 
@@ -120,6 +166,11 @@ button {
   color: white;
   font-size: 14px;
   height: 50px;
+}
+
+#mints {
+  max-width: 100%;
+  height: auto;
 }
 
 /* ---- css shame ---- */

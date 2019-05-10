@@ -45,17 +45,23 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   background-color: #3498DB;
+  color: white;
+
 }
 
-.navlink {
+.navlinks {
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  color: white;
+  align-items: center;
 }
 
 .navlinks a {
   text-decoration: none;
-  color: black;
+  color: white;
+  display: flex;
+  margin-right: 20px;
 }
 
 /* ---- header ---- */
@@ -97,9 +103,6 @@ header article:nth-child(2) {
     border: 1px solid red;
   }
 
-  #first-section article:first-child {
-
-  }
 
   
   #properties {

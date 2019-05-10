@@ -107,7 +107,7 @@ header article:nth-child(2) {
     width: 100%;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    height: 100vh;
   }
 
 
@@ -184,6 +184,27 @@ button {
 #mints {
   max-width: 100%;
   height: auto;
+}
+
+
+footer {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3498DB;
+  color: white;
+
+}
+
+footer h3 {
+  margin-left: 15px;
+}
+footer div {
+  margin-right: 30px;
+  align-items: center;
+  color: white;
 }
 
 /* ---- css shame ---- */
